@@ -2,17 +2,14 @@
 
 Brings the look of Windows 11 to Discord.
 
-![Server Chat](./screenshots/2022-02-22_170832.png)
+![Server Chat](https://z.zz.fo/2h9oq.png)
 ![User Settings](https://i.imgur.com/3uL8y2m.png)
-<sup>1 In the screenshots I also use [this](https://betterdiscord.app/theme/RadialStatus) theme</sup><br/>
-<sup>2 The screenshots are taken in a 4k screen with 150% scaling</sup><br/>
-<sup>3 The screenshots are not frecuently updated, the theme will probably be more similar to the ones found in [Fluent](https://github.com/DiscordStyles/Fluent)</sup><br/>
 
 ## Download
 
-BetterDiscord: [Download](https://github.com/xsm2/Fluent/releases/latest)
+BetterDiscord: haha betterdiscord user
 
-Powercord Install: `git clone https://github.com/xsm2/Fluent`
+Powercord Install: `git clone https://github.com/neyako/Fluent`
 
 ## Contributing
 
@@ -24,8 +21,8 @@ See the [LICENSE](https://github.com/xsm2/Fluent/blob/main/LICENSE.md) file for 
 
 
 ## PD
-This is a little fork by me, xsm2, to fix and modify a few things, all the credit should go to [Gibbu](https://github.com/Gibbu)/[DiscordStyles](https://github.com/DiscordStyles). If you want to see the changes just look at the commits, but the most important ones are:
-
+This is a little fork by me (neyako) and xsm2, to fix and modify a few things, all the credit should go to [Gibbu](https://github.com/Gibbu)/[DiscordStyles](https://github.com/DiscordStyles). If you want to see the changes just look at the commits, but the most important ones are:
+- Brings back Discord chat
 - Less padding/margins in general
 - Disabled seflmessages addon(so no more messages on the right)
 - Moved Minimize, Maximize and Close buttons to the Toolbar (Thanks to [doggybootsy](https://github.com/doggybootsy/FluentCord) for the ""inspiration""(aka the code))
