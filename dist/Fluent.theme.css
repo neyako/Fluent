@@ -4,10 +4,21 @@
  * @version 1.0.3
  * @description Brings the look of Windows 11 to Discord.
  * @source https://github.com/DiscordStyles/Fluent
-*/
-
 /*https://xsm2.github.io/xsm2/Fluent.css"*/
-@import url("https://raw.githack.com/xsm2/Fluent/main/dist/Fluent.css");
+@import url("https://raw.githack.com/neyako/Fluent/main/dist/Fluent.css");
+
+
+/* I want an OG discord chattttttt */
+#app-mount .cozy-VmLDNB .contents-2MsGLg > .messageContent-2t3eCI, #app-mount .cozy-VmLDNB.groupStart-3Mlgv1 .contents-2MsGLg {
+    background: transparent !important;
+}
+#app-mount .cozy-VmLDNB.groupStart-3Mlgv1 .contents-2MsGLg .header-2jRmjb {
+    padding: 0 0 0 0 !important;
+}
+
+#app-mount .cozy-VmLDNB .contents-2MsGLg > .messageContent-2t3eCI:not(:empty) {
+	padding: 0 24px 0 0 !important;
+}
 
 :root {
 	/* The colour used throughout the app | R,G,B format | Default: 98, 205, 254 */
@@ -18,7 +29,7 @@
 	--accent: 114, 137, 218;/*discord purple*/
 	
 
-	--channels-width: 280px; /* The size of the server channel/dms list | Default: 300px | Fork default: 280px*/
-	--members-width: 255px; /* The size of the members list | Default: 280px | Fork default: 255px*/
-	--server-size: 48px; /* Size of each server in the server list | Default: 48px */
+	--channels-width: 250px; /* The size of the server channel/dms list | Default: 300px | Fork default: 280px*/
+	--members-width: 260px; /* The size of the members list | Default: 280px | Fork default: 255px*/
+	--server-size: 45px; /* Size of each server in the server list | Default: 48px */
 }

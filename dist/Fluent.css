@@ -833,7 +833,7 @@ body,
   border-radius: var(--rounded);
   margin-left: 0;
   margin-right: 0;
-  padding: 0 8px 0 0px;
+  padding: 0 8px 0 16px;
 }
 #app-mount .content-1gYQeQ .iconItem-1EjiK0:not(.cursorPointer-B3uwDA) svg {
   background: var(--interactive-normal);
