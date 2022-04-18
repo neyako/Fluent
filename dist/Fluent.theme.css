@@ -25,6 +25,12 @@
   margin: calc(var(--chat-spacing-x) - 10px);
   border-color: var(--border-mid);
 }
+#app-mount .mentioned-Tre-dv {
+  background: rgb(var(--chat-mention-colour), 0.05);
+}
+#app-mount .mentioned-Tre-dv:not(.groupStart-3Mlgv1) .messageContent-2t3eCI:not(:empty) {
+  background: transparent !important;
+}
 
 :root {
 	/* The colour used throughout the app | R,G,B format | Default: 98, 205, 254 */
